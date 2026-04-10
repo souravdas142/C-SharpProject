@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sd00819204\\source\\repos\\GenerateAllSubstring\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81031685-78C6-4044-84F3-8F219FDFD4F9}|GenerateAllSubstring\\GenerateAllSubstring.csproj|c:\\users\\sd00819204\\source\\repos\\generateallsubstring\\generateallsubstring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81031685-78C6-4044-84F3-8F219FDFD4F9}|GenerateAllSubstring\\GenerateAllSubstring.csproj|solutionrelative:generateallsubstring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\GenerateAllSubstring\\GenerateAllSubstring\\Program.cs",
+              "RelativeDocumentMoniker": "GenerateAllSubstring\\Program.cs",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\GenerateAllSubstring\\GenerateAllSubstring\\Program.cs",
+              "RelativeToolTip": "GenerateAllSubstring\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T06:45:37.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

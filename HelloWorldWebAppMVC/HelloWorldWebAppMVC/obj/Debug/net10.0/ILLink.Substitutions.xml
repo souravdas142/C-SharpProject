@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="HelloWorldWebAppMVC">
+    <resource name="FSharpSignatureData.HelloWorldWebAppMVC" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.HelloWorldWebAppMVC" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.HelloWorldWebAppMVC" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.HelloWorldWebAppMVC" action="remove"></resource>
+    <resource name="FSharpOptimizationData.HelloWorldWebAppMVC" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.HelloWorldWebAppMVC" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.HelloWorldWebAppMVC" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.HelloWorldWebAppMVC" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.HelloWorldWebAppMVC" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.HelloWorldWebAppMVC" action="remove"></resource>
+  </assembly>
+</linker>

@@ -1,0 +1,7 @@
+C:\Users\sd00819204\source\repos\ReplaceSpecialChar\ReplaceSpecialChar\bin\Debug\ReplaceSpecialChar.exe.config
+C:\Users\sd00819204\source\repos\ReplaceSpecialChar\ReplaceSpecialChar\bin\Debug\ReplaceSpecialChar.exe
+C:\Users\sd00819204\source\repos\ReplaceSpecialChar\ReplaceSpecialChar\bin\Debug\ReplaceSpecialChar.pdb
+C:\Users\sd00819204\source\repos\ReplaceSpecialChar\ReplaceSpecialChar\obj\Debug\ReplaceSpecialChar.csproj.AssemblyReference.cache
+C:\Users\sd00819204\source\repos\ReplaceSpecialChar\ReplaceSpecialChar\obj\Debug\ReplaceSpecialChar.csproj.CoreCompileInputs.cache
+C:\Users\sd00819204\source\repos\ReplaceSpecialChar\ReplaceSpecialChar\obj\Debug\ReplaceSpecialChar.exe
+C:\Users\sd00819204\source\repos\ReplaceSpecialChar\ReplaceSpecialChar\obj\Debug\ReplaceSpecialChar.pdb

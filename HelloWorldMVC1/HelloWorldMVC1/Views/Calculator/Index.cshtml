@@ -1,0 +1,26 @@
+﻿@model HelloWorldMVC1.Models.MCalculator
+
+<h2>Simple Calculator</h2>
+
+@using (Html.BeginForm("Index", "Calculator", FormMethod.Post))
+{
+    <div>
+        <label>No 1</label>
+        <input type="text" name="a" value="@Model.a" />
+    </div>
+
+    <div>
+        <label>No 2</label>
+        <input type="text" name="b" value="@Model.b" />
+    </div>
+
+    <div>
+        <label>Result</label>
+        <input type="text" value="@Model.action" readonly />
+    </div>
+
+    <button type="submit" name="action" value="add">+</button>
+    <button type="submit" name="action" value="min">-</button>
+    <button type="submit" name="action" value="multi">*</button>
+    <button type="submit" name="action" value="div">/</button>
+}

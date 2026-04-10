@@ -1,0 +1,7 @@
+C:\Users\sd00819204\source\repos\DuplicateLetters\DuplicateLetters\obj\Debug\DuplicateLetters.csproj.AssemblyReference.cache
+C:\Users\sd00819204\source\repos\DuplicateLetters\DuplicateLetters\obj\Debug\DuplicateLetters.csproj.CoreCompileInputs.cache
+C:\Users\sd00819204\source\repos\DuplicateLetters\DuplicateLetters\bin\Debug\DuplicateLetters.exe.config
+C:\Users\sd00819204\source\repos\DuplicateLetters\DuplicateLetters\bin\Debug\DuplicateLetters.exe
+C:\Users\sd00819204\source\repos\DuplicateLetters\DuplicateLetters\bin\Debug\DuplicateLetters.pdb
+C:\Users\sd00819204\source\repos\DuplicateLetters\DuplicateLetters\obj\Debug\DuplicateLetters.exe
+C:\Users\sd00819204\source\repos\DuplicateLetters\DuplicateLetters\obj\Debug\DuplicateLetters.pdb

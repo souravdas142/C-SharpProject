@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\views\\calculator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\views\\calculator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\models\\mcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\models\\mcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\views\\calculator\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\views\\calculator\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\models\\scalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\models\\scalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\controllers\\helloworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\controllers\\helloworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\views\\helloworld\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\views\\helloworld\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|c:\\users\\sd00819204\\source\\repos\\helloworldmvc1\\helloworldmvc1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C4AD05F-D62C-0910-4F52-515D1A071120}|HelloWorldMVC1\\HelloWorldMVC1.csproj|solutionrelative:helloworldmvc1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HelloWorldMVC1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-10T13:41:47.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Program.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Program.cs",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Program.cs",
+              "RelativeToolTip": "HelloWorldMVC1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T13:41:25.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Views\\Calculator\\Index.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Views\\Calculator\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Views\\Calculator\\Index.cshtml",
+              "RelativeToolTip": "HelloWorldMVC1\\Views\\Calculator\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T13:40:52.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index2.cshtml",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Views\\Calculator\\Index2.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Views\\Calculator\\Index2.cshtml",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Views\\Calculator\\Index2.cshtml",
+              "RelativeToolTip": "HelloWorldMVC1\\Views\\Calculator\\Index2.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwC4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T13:00:20.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorController.cs",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Controllers\\CalculatorController.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Controllers\\CalculatorController.cs",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Controllers\\CalculatorController.cs",
+              "RelativeToolTip": "HelloWorldMVC1\\Controllers\\CalculatorController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T12:58:49.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Models\\MCalculator.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Models\\MCalculator.cs",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Models\\MCalculator.cs",
+              "RelativeToolTip": "HelloWorldMVC1\\Models\\MCalculator.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T12:49:26.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\appsettings.json",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\appsettings.json",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\appsettings.json",
+              "RelativeToolTip": "HelloWorldMVC1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-10T04:28:03.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Models\\SCalculator.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Models\\SCalculator.cs",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Models\\SCalculator.cs",
+              "RelativeToolTip": "HelloWorldMVC1\\Models\\SCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T12:54:40.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HelloWorldMVC1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T12:45:05.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Students.cs",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Models\\Students.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Models\\Students.cs",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Models\\Students.cs",
+              "RelativeToolTip": "HelloWorldMVC1\\Models\\Students.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T05:09:01.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HelloWorld.cs",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Controllers\\HelloWorld.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Controllers\\HelloWorld.cs",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Controllers\\HelloWorld.cs",
+              "RelativeToolTip": "HelloWorldMVC1\\Controllers\\HelloWorld.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:45:49.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Views\\HelloWorld\\Index.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Views\\HelloWorld\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Views\\HelloWorld\\Index.cshtml",
+              "RelativeToolTip": "HelloWorldMVC1\\Views\\HelloWorld\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T04:46:30.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC1\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\HelloWorldMVC1\\HelloWorldMVC1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "HelloWorldMVC1\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T04:28:50.282Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

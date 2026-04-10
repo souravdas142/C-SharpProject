@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sd00819204\\source\\repos\\Interface1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBA8724-7081-4FC7-9E77-18EC3858B992}|Interface1\\Interface1.csproj|c:\\users\\sd00819204\\source\\repos\\interface1\\interface1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBA8724-7081-4FC7-9E77-18EC3858B992}|Interface1\\Interface1.csproj|solutionrelative:interface1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\Interface1\\Interface1\\Program.cs",
+              "RelativeDocumentMoniker": "Interface1\\Program.cs",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\Interface1\\Interface1\\Program.cs",
+              "RelativeToolTip": "Interface1\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T14:02:16.253Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

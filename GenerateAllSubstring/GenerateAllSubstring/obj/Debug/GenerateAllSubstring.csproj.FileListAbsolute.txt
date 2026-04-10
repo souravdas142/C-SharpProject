@@ -1,0 +1,7 @@
+C:\Users\sd00819204\source\repos\GenerateAllSubstring\GenerateAllSubstring\bin\Debug\GenerateAllSubstring.exe.config
+C:\Users\sd00819204\source\repos\GenerateAllSubstring\GenerateAllSubstring\bin\Debug\GenerateAllSubstring.exe
+C:\Users\sd00819204\source\repos\GenerateAllSubstring\GenerateAllSubstring\bin\Debug\GenerateAllSubstring.pdb
+C:\Users\sd00819204\source\repos\GenerateAllSubstring\GenerateAllSubstring\obj\Debug\GenerateAllSubstring.csproj.AssemblyReference.cache
+C:\Users\sd00819204\source\repos\GenerateAllSubstring\GenerateAllSubstring\obj\Debug\GenerateAllSubstring.csproj.CoreCompileInputs.cache
+C:\Users\sd00819204\source\repos\GenerateAllSubstring\GenerateAllSubstring\obj\Debug\GenerateAllSubstring.exe
+C:\Users\sd00819204\source\repos\GenerateAllSubstring\GenerateAllSubstring\obj\Debug\GenerateAllSubstring.pdb

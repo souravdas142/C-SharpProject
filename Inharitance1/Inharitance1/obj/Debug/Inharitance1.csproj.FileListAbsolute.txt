@@ -1,0 +1,7 @@
+C:\Users\sd00819204\source\repos\Inharitance1\Inharitance1\bin\Debug\Inharitance1.exe.config
+C:\Users\sd00819204\source\repos\Inharitance1\Inharitance1\bin\Debug\Inharitance1.exe
+C:\Users\sd00819204\source\repos\Inharitance1\Inharitance1\bin\Debug\Inharitance1.pdb
+C:\Users\sd00819204\source\repos\Inharitance1\Inharitance1\obj\Debug\Inharitance1.csproj.AssemblyReference.cache
+C:\Users\sd00819204\source\repos\Inharitance1\Inharitance1\obj\Debug\Inharitance1.csproj.CoreCompileInputs.cache
+C:\Users\sd00819204\source\repos\Inharitance1\Inharitance1\obj\Debug\Inharitance1.exe
+C:\Users\sd00819204\source\repos\Inharitance1\Inharitance1\obj\Debug\Inharitance1.pdb
