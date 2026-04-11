@@ -5,6 +5,26 @@
 }
 
 <h2>ATM Withdraw</h2>
+<h3>Available Notes in ATM:</h3>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Denomination</th>
+        <th>Count</th>
+    </tr>
+
+    @foreach (var note in Model.AvailableNotes)
+    {
+        <tr>
+            <td>@note.Denomination</td>
+            <td>@note.Count</td>
+        </tr>
+    }
+</table>
+
+<br />
+
+
 
 <form asp-action="Withdraw" method="post">
 

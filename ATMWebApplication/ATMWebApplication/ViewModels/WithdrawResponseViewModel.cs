@@ -9,9 +9,9 @@ namespace ATMWebApplication.ViewModels
     {
         public bool IsSuccess { get; set; }
 
-        public string Message { get; set; }
+        public string Message { get; set; } = string.Empty;
 
-        public List<DispensedNoteViewModel> Notes { get; set; }
+        public List<DispensedNoteViewModel> Notes { get; set; } = new();
     }
 
     public class DispensedNoteViewModel

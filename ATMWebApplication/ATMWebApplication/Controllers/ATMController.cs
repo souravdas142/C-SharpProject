@@ -4,22 +4,37 @@ using Microsoft.AspNetCore.Mvc;
 using ATMWebApplication.Services.Interfaces;
 using ATMWebApplication.ViewModels;
 using ATMWebApplication.Domain.Enums;
+using ATMWebApplication.State.Interfaces;
 
 namespace ATMWebApplication.Controllers
 {
     public class ATMController : Controller
     {
         private readonly IATMService _atmService;
+        private readonly IATMStateStore _atmStateStore;
 
-        public ATMController(IATMService atmService)
+        public ATMController(IATMService atmService, IATMStateStore atmStateStore)
         {
             _atmService = atmService ?? throw new ArgumentNullException(nameof(atmService));
+            _atmStateStore = atmStateStore ?? throw new ArgumentNullException(nameof(atmStateStore));
         }
 
         [HttpGet]
         public IActionResult Withdraw()
         {
-            return View(new WithdrawRequestViewModel());
+            var inventorySnapshot = _atmStateStore.GetInventorySnapshot();
+            var model = new WithdrawRequestViewModel
+            {
+                //AccountId = "xyz",
+                AvailableNotes = inventorySnapshot.GetAll()
+                                    .Select(x => new DispensedNoteViewModel
+                                    {
+                                        Denomination = x.Key.Value,
+                                        Count = x.Value
+                                    })
+                                    .ToList()
+            };
+            return View(model);
         }
 
         [HttpPost]
