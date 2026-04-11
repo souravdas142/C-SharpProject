@@ -1,0 +1,26 @@
+﻿@model ATMWebApplication.ViewModels.WithdrawResponseViewModel
+
+@{
+    ViewData["Title"] = "Result";
+}
+
+<h2>Withdrawal Result</h2>
+
+<p><strong>Status:</strong> @(Model.IsSuccess ? "Success" : "Failure")</p>
+
+<p><strong>Message:</strong> @Model.Message</p>
+
+@if (Model.IsSuccess && Model.Notes != null && Model.Notes.Count > 0)
+{
+    <h3>Dispensed Notes:</h3>
+    <ul>
+        @foreach (var note in Model.Notes)
+        {
+            <li>@note.Denomination x @note.Count</li>
+        }
+    </ul>
+}
+
+<br />
+
+<a href="/ATM/Withdraw">Back</a>
