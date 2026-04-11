@@ -19,20 +19,27 @@ namespace ATMWebApplication.Controllers
             _stateStore = stateStore ?? throw new ArgumentNullException(nameof(stateStore));
         }
 
+        private List<DispensedNoteViewModel> GetAvailableNotes()
+        {
+            var snapshot = _stateStore.GetInventorySnapshot();
+
+            return snapshot.GetAll()
+                .Select(x => new DispensedNoteViewModel
+                {
+                    Denomination = x.Key.Value,
+                    Count = x.Value
+                })
+                .ToList();
+        }
+
         [HttpGet]
         public IActionResult Withdraw()
         {
             var inventorySnapshot = _stateStore.GetInventorySnapshot();
             var model = new WithdrawRequestViewModel
             {
-                //AccountId = "xyz",
-                AvailableNotes = inventorySnapshot.GetAll()
-                                    .Select(x => new DispensedNoteViewModel
-                                    {
-                                        Denomination = x.Key.Value,
-                                        Count = x.Value
-                                    })
-                                    .ToList()
+                
+                AvailableNotes = GetAvailableNotes()
             };
             return View(model);
         }
@@ -42,6 +49,7 @@ namespace ATMWebApplication.Controllers
         {
             if (!ModelState.IsValid)
             {
+                request.AvailableNotes = GetAvailableNotes();
                 return View(request);
             }
 
