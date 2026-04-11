@@ -11,18 +11,18 @@ namespace ATMWebApplication.Controllers
     public class ATMController : Controller
     {
         private readonly IATMService _atmService;
-        private readonly IATMStateStore _atmStateStore;
+        private readonly IATMStateStore _stateStore;
 
-        public ATMController(IATMService atmService, IATMStateStore atmStateStore)
+        public ATMController(IATMService atmService, IATMStateStore stateStore)
         {
             _atmService = atmService ?? throw new ArgumentNullException(nameof(atmService));
-            _atmStateStore = atmStateStore ?? throw new ArgumentNullException(nameof(atmStateStore));
+            _stateStore = stateStore ?? throw new ArgumentNullException(nameof(stateStore));
         }
 
         [HttpGet]
         public IActionResult Withdraw()
         {
-            var inventorySnapshot = _atmStateStore.GetInventorySnapshot();
+            var inventorySnapshot = _stateStore.GetInventorySnapshot();
             var model = new WithdrawRequestViewModel
             {
                 //AccountId = "xyz",
@@ -47,17 +47,20 @@ namespace ATMWebApplication.Controllers
 
             var result = _atmService.Withdraw(request.AccountId, request.Amount);
 
-            var response = MapToViewModel(result);
+            var accountSnapshot = _stateStore.GetAccountSnapshot(request.AccountId);
+
+            var response = MapToViewModel(result,accountSnapshot.Balance);
 
             return View("WithdrawResult", response);
         }
 
-        private WithdrawResponseViewModel MapToViewModel(Domain.Results.WithdrawalResult result)
+        private WithdrawResponseViewModel MapToViewModel(Domain.Results.WithdrawalResult result, decimal balance)
         {
             var response = new WithdrawResponseViewModel
             {
                 IsSuccess = result.Status == WithdrawalStatus.Success,
                 Message = GetMessage(result),
+                Balance = balance,
                 Notes = result.Notes
                     .Select(n => new DispensedNoteViewModel
                     {

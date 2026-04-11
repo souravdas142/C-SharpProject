@@ -12,6 +12,8 @@ namespace ATMWebApplication.ViewModels
         public string Message { get; set; } = string.Empty;
 
         public List<DispensedNoteViewModel> Notes { get; set; } = new();
+
+        public decimal Balance { get; set; }
     }
 
     public class DispensedNoteViewModel

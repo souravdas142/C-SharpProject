@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{64BCBA8F-0CF7-4022-B1B4-FCFD188B160B}|ATMWebApplication\\ATMWebApplication.csproj|solutionrelative:atmwebapplication\\controllers\\atmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{64BCBA8F-0CF7-4022-B1B4-FCFD188B160B}|ATMWebApplication\\ATMWebApplication.csproj|c:\\users\\sd00819204\\source\\repos\\atmwebapplication\\atmwebapplication\\views\\atm\\withdrawresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BCBA8F-0CF7-4022-B1B4-FCFD188B160B}|ATMWebApplication\\ATMWebApplication.csproj|solutionrelative:atmwebapplication\\views\\atm\\withdrawresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64BCBA8F-0CF7-4022-B1B4-FCFD188B160B}|ATMWebApplication\\ATMWebApplication.csproj|c:\\users\\sd00819204\\source\\repos\\atmwebapplication\\atmwebapplication\\viewmodels\\withdrawresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BCBA8F-0CF7-4022-B1B4-FCFD188B160B}|ATMWebApplication\\ATMWebApplication.csproj|solutionrelative:atmwebapplication\\viewmodels\\withdrawresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{64BCBA8F-0CF7-4022-B1B4-FCFD188B160B}|ATMWebApplication\\ATMWebApplication.csproj|solutionrelative:atmwebapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BCBA8F-0CF7-4022-B1B4-FCFD188B160B}|ATMWebApplication\\ATMWebApplication.csproj|c:\\users\\sd00819204\\source\\repos\\atmwebapplication\\atmwebapplication\\views\\atm\\withdrawresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64BCBA8F-0CF7-4022-B1B4-FCFD188B160B}|ATMWebApplication\\ATMWebApplication.csproj|solutionrelative:atmwebapplication\\views\\atm\\withdrawresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64BCBA8F-0CF7-4022-B1B4-FCFD188B160B}|ATMWebApplication\\ATMWebApplication.csproj|c:\\users\\sd00819204\\source\\repos\\atmwebapplication\\atmwebapplication\\services\\atmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BCBA8F-0CF7-4022-B1B4-FCFD188B160B}|ATMWebApplication\\ATMWebApplication.csproj|solutionrelative:atmwebapplication\\services\\atmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,13 +114,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WithdrawResponseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\ViewModels\\WithdrawResponseViewModel.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\ViewModels\\WithdrawResponseViewModel.cs",
               "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\ViewModels\\WithdrawResponseViewModel.cs",
               "RelativeToolTip": "ATMWebApplication\\ViewModels\\WithdrawResponseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T18:34:07.856Z",
               "EditorCaption": ""
@@ -133,7 +133,7 @@
               "RelativeDocumentMoniker": "ATMWebApplication\\Controllers\\ATMController.cs",
               "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Controllers\\ATMController.cs",
               "RelativeToolTip": "ATMWebApplication\\Controllers\\ATMController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwBYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T15:32:49.815Z",
               "EditorCaption": ""
@@ -141,19 +141,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Withdraw.cshtml",
-              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Views\\ATM\\Withdraw.cshtml",
-              "RelativeDocumentMoniker": "ATMWebApplication\\Views\\ATM\\Withdraw.cshtml",
-              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Views\\ATM\\Withdraw.cshtml",
-              "RelativeToolTip": "ATMWebApplication\\Views\\ATM\\Withdraw.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-11T17:31:26.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "WithdrawRequestViewModel.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\ViewModels\\WithdrawRequestViewModel.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\ViewModels\\WithdrawRequestViewModel.cs",
@@ -166,7 +153,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WithdrawResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Views\\ATM\\WithdrawResult.cshtml",
+              "RelativeDocumentMoniker": "ATMWebApplication\\Views\\ATM\\WithdrawResult.cshtml",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Views\\ATM\\WithdrawResult.cshtml",
+              "RelativeToolTip": "ATMWebApplication\\Views\\ATM\\WithdrawResult.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T17:34:07.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Withdraw.cshtml",
+              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Views\\ATM\\Withdraw.cshtml",
+              "RelativeDocumentMoniker": "ATMWebApplication\\Views\\ATM\\Withdraw.cshtml",
+              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Views\\ATM\\Withdraw.cshtml",
+              "RelativeToolTip": "ATMWebApplication\\Views\\ATM\\Withdraw.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T17:31:26.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "InventorySnapshot.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Domain\\Snapshots\\InventorySnapshot.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\Domain\\Snapshots\\InventorySnapshot.cs",
@@ -179,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DispenseNote.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Domain\\ValueObjects\\DispenseNote.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\Domain\\ValueObjects\\DispenseNote.cs",
@@ -192,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\Controllers\\HomeController.cs",
@@ -205,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FailureCode.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Domain\\Enums\\FailureCode.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\Domain\\Enums\\FailureCode.cs",
@@ -218,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "WithdrawalStatus.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Domain\\Enums\\WithdrawalStatus.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\Domain\\Enums\\WithdrawalStatus.cs",
@@ -231,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DenominationResult.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Domain\\Results\\DenominationResult.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\Domain\\Results\\DenominationResult.cs",
@@ -244,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "WithdrawalResult.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Domain\\Results\\WithdrawalResult.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\Domain\\Results\\WithdrawalResult.cs",
@@ -257,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Denomination.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Domain\\ValueObjects\\Denomination.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\Domain\\ValueObjects\\Denomination.cs",
@@ -270,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GreedyDenominationStrategy.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Strategies\\GreedyDenominationStrategy.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\Strategies\\GreedyDenominationStrategy.cs",
@@ -283,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Program.cs",
               "RelativeDocumentMoniker": "ATMWebApplication\\Program.cs",
@@ -297,19 +310,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "WithdrawResult.cshtml",
-              "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Views\\ATM\\WithdrawResult.cshtml",
-              "RelativeDocumentMoniker": "ATMWebApplication\\Views\\ATM\\WithdrawResult.cshtml",
-              "ToolTip": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Views\\ATM\\WithdrawResult.cshtml",
-              "RelativeToolTip": "ATMWebApplication\\Views\\ATM\\WithdrawResult.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-11T17:34:07.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ATMWebApplication\\Views\\_ViewStart.cshtml",
@@ -322,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\sd00819204\\source\\repos\\ATMWebApplication\\ATMWebApplication\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ATMWebApplication\\Views\\_ViewImports.cshtml",
