@@ -7,11 +7,11 @@ using ATMWebApplication.Strategies.Interfaces;
 
 namespace ATMWebApplication.Strategies
 {
-    /// <summary>
-    /// Greedy implementation of denomination strategy.
-    /// 
-    /// Uses largest denomination first to compute note distribution.
-    /// </summary>
+     
+    // Greedy implementation of denomination strategy.
+    // 
+    // Uses largest denomination first to compute note distribution.
+     
     public sealed class GreedyDenominationStrategy : IDenominationStrategy
     {
         public DenominationResult Calculate(decimal amount, InventorySnapshot inventorySnapshot)
@@ -22,11 +22,11 @@ namespace ATMWebApplication.Strategies
             if (inventorySnapshot == null)
                 throw new ArgumentNullException(nameof(inventorySnapshot));
 
-            var result = new List<DispensedNote>();
+            List<DispensedNote> result = new List<DispensedNote>();
             decimal remainingAmount = amount;
 
             // Get denominations in descending order
-            var denominations = inventorySnapshot.GetDenominationsDescending();
+            List<Denomination> denominations = inventorySnapshot.GetDenominationsDescending();
 
             foreach (var denomination in denominations)
             {

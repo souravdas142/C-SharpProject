@@ -9,22 +9,22 @@ using ATMWebApplication.State.Interfaces;
 
 namespace ATMWebApplication.State
 {
-    /// <summary>
-    /// In-memory implementation of ATM state store.
-    /// 
-    /// Responsible for:
-    /// - Holding application state
-    /// - Ensuring thread-safe updates
-    /// - Performing atomic withdrawal
-    /// </summary>
-    public sealed class InMemoryATMStateStore : IATMStateStore
+     
+    // In-memory implementation of ATM state store.
+    // 
+    // Responsible for:
+    // - Holding application state
+    // - Ensuring thread-safe updates
+    // - Performing atomic withdrawal
+     
+    public sealed class InMemoryStateStore : IStateStore
     {
         private readonly object _lock = new object();
 
         private readonly Account _account;
         private readonly CashInventory _inventory;
 
-        public InMemoryATMStateStore(Account account, CashInventory inventory)
+        public InMemoryStateStore(Account account, CashInventory inventory)
         {
             _account = account ?? throw new ArgumentNullException(nameof(account));
             _inventory = inventory ?? throw new ArgumentNullException(nameof(inventory));
@@ -40,7 +40,7 @@ namespace ATMWebApplication.State
 
         public InventorySnapshot GetInventorySnapshot()
         {
-            var snapshot = _inventory.GetSnapshot();
+            Dictionary<Denomination, int> snapshot = _inventory.GetSnapshot();
             return new InventorySnapshot(snapshot);
         }
 
@@ -60,19 +60,19 @@ namespace ATMWebApplication.State
 
             lock (_lock)
             {
-                // 🔹 Revalidate account balance
+                // Revalidate account balance
                 if (_account.Balance < amount)
                 {
                     return WithdrawalResult.Failure(FailureCode.InsufficientBalance);
                 }
 
-                // 🔹 Revalidate inventory
+                // Revalidate inventory
                 if (!_inventory.HasSufficientNotes(notesToDeduct))
                 {
                     return WithdrawalResult.Failure(FailureCode.ConcurrentFailure);
                 }
 
-                // 🔹 Perform atomic update
+                //  Perform atomic update
                 try
                 {
                     _account.Deduct(amount);

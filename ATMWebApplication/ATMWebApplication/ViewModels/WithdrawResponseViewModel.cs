@@ -2,9 +2,9 @@
 
 namespace ATMWebApplication.ViewModels
 {
-    /// <summary>
-    /// Represents withdrawal response for UI.
-    /// </summary>
+     
+    // Represents withdrawal response for UI.
+     
     public class WithdrawResponseViewModel
     {
         public bool IsSuccess { get; set; }

@@ -2,12 +2,12 @@
 
 namespace ATMWebApplication.Domain.Entities
 {
-    /// <summary>
-    /// Represents a bank account.
-    /// 
-    /// This is a domain entity with controlled mutability.
-    /// Only StateStore should modify the balance.
-    /// </summary>
+    
+    // Represents a bank account.
+    // 
+    // This is a domain entity with controlled mutability.
+    // Only StateStore should modify the balance.
+    
     public sealed class Account
     {
         public string AccountId { get; }
@@ -26,10 +26,10 @@ namespace ATMWebApplication.Domain.Entities
             Balance = balance;
         }
 
-        /// <summary>
-        /// Deducts amount from balance.
-        /// Only StateStore should call this method.
-        /// </summary>
+        
+        // Deducts amount from balance.
+        // Only StateStore should call this method.
+        
         public void Deduct(decimal amount)
         {
             if (amount <= 0)

@@ -2,19 +2,19 @@
 
 namespace ATMWebApplication.Domain.ValueObjects
 {
-    /// <summary>
-    /// Represents a currency denomination (e.g., 2000, 500, 200, 100).
-    /// 
-    /// This is a value object:
-    /// - Immutable
-    /// - Equality based on Value
-    /// - Used as a key in collections
-    /// </summary>
+     
+    // Represents a currency denomination (e.g., 2000, 500, 200, 100).
+    // 
+    // This is a value object:
+    // - Immutable
+    // - Equality based on Value
+    // - Used as a key in collections
+     
     public sealed class Denomination : IEquatable<Denomination>, IComparable<Denomination>
     {
-        /// <summary>
-        /// Monetary value of the denomination.
-        /// </summary>
+         
+        // Monetary value of the denomination.
+         
         public int Value { get; }
 
         public Denomination(int value)
@@ -25,9 +25,9 @@ namespace ATMWebApplication.Domain.ValueObjects
             Value = value;
         }
 
-        /// <summary>
-        /// Equality based on denomination value.
-        /// </summary>
+         
+        // Equality based on denomination value.
+         
         public bool Equals(Denomination? other)
         {
             if (other is null)
@@ -46,9 +46,9 @@ namespace ATMWebApplication.Domain.ValueObjects
             return Value.GetHashCode();
         }
 
-        /// <summary>
-        /// Comparison based on value (used for sorting).
-        /// </summary>
+         
+        // Comparison based on value (used for sorting).
+         
         public int CompareTo(Denomination? other)
         {
             if (other is null)

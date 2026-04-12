@@ -4,13 +4,13 @@ using ATMWebApplication.Domain.ValueObjects;
 
 namespace ATMWebApplication.Domain.Results
 {
-    /// <summary>
-    /// Represents the result of denomination calculation.
-    /// 
-    /// This is used by the Strategy layer to indicate:
-    /// - Whether the amount can be dispensed
-    /// - If yes, in what denominations
-    /// </summary>
+    
+    // Represents the result of denomination calculation.
+    // 
+    // This is used by the Strategy layer to indicate:
+    // - Whether the amount can be dispensed
+    // - If yes, in what denominations
+    
     public sealed class DenominationResult
     {
         public bool IsSuccess { get; }
@@ -23,9 +23,9 @@ namespace ATMWebApplication.Domain.Results
             Notes = notes;
         }
 
-        /// <summary>
-        /// Creates a successful denomination result.
-        /// </summary>
+        
+        // Creates a successful denomination result.
+        
         public static DenominationResult Success(List<DispensedNote> notes)
         {
             if (notes == null || notes.Count == 0)
@@ -34,9 +34,9 @@ namespace ATMWebApplication.Domain.Results
             return new DenominationResult(true, notes);
         }
 
-        /// <summary>
-        /// Creates a failed denomination result.
-        /// </summary>
+       
+        // Creates a failed denomination result.
+        
         public static DenominationResult Failure()
         {
             return new DenominationResult(false, new List<DispensedNote>());

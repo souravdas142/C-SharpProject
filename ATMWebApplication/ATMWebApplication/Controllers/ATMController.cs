@@ -5,15 +5,17 @@ using ATMWebApplication.Services.Interfaces;
 using ATMWebApplication.ViewModels;
 using ATMWebApplication.Domain.Enums;
 using ATMWebApplication.State.Interfaces;
+using ATMWebApplication.Domain.Snapshots;
+using ATMWebApplication.Domain.Results;
 
 namespace ATMWebApplication.Controllers
 {
     public class ATMController : Controller
     {
         private readonly IATMService _atmService;
-        private readonly IATMStateStore _stateStore;
+        private readonly IStateStore _stateStore;
 
-        public ATMController(IATMService atmService, IATMStateStore stateStore)
+        public ATMController(IATMService atmService, IStateStore stateStore)
         {
             _atmService = atmService ?? throw new ArgumentNullException(nameof(atmService));
             _stateStore = stateStore ?? throw new ArgumentNullException(nameof(stateStore));
@@ -21,7 +23,7 @@ namespace ATMWebApplication.Controllers
 
         private List<DispensedNoteViewModel> GetAvailableNotes()
         {
-            var snapshot = _stateStore.GetInventorySnapshot();
+            InventorySnapshot snapshot = _stateStore.GetInventorySnapshot();
 
             return snapshot.GetAll()
                 .Select(x => new DispensedNoteViewModel
@@ -35,8 +37,8 @@ namespace ATMWebApplication.Controllers
         [HttpGet]
         public IActionResult Withdraw()
         {
-            var inventorySnapshot = _stateStore.GetInventorySnapshot();
-            var model = new WithdrawRequestViewModel
+            InventorySnapshot inventorySnapshot = _stateStore.GetInventorySnapshot();
+            WithdrawRequestViewModel model = new WithdrawRequestViewModel
             {
                 
                 AvailableNotes = GetAvailableNotes()
@@ -53,18 +55,18 @@ namespace ATMWebApplication.Controllers
                 return View(request);
             }
 
-            var result = _atmService.Withdraw(request.AccountId, request.Amount);
+            WithdrawalResult result = _atmService.Withdraw(request.AccountId, request.Amount);
 
-            var accountSnapshot = _stateStore.GetAccountSnapshot(request.AccountId);
+            AccountSnapshot accountSnapshot = _stateStore.GetAccountSnapshot(request.AccountId);
 
-            var response = MapToViewModel(result,accountSnapshot.Balance);
+            WithdrawResponseViewModel response = MapToViewModel(result,accountSnapshot.Balance);
 
             return View("WithdrawResult", response);
         }
 
-        private WithdrawResponseViewModel MapToViewModel(Domain.Results.WithdrawalResult result, decimal balance)
+        private WithdrawResponseViewModel MapToViewModel(WithdrawalResult result, decimal balance)
         {
-            var response = new WithdrawResponseViewModel
+            WithdrawResponseViewModel response = new WithdrawResponseViewModel
             {
                 IsSuccess = result.Status == WithdrawalStatus.Success,
                 Message = GetMessage(result),

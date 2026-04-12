@@ -2,25 +2,25 @@
 
 namespace ATMWebApplication.Domain.ValueObjects
 {
-    /// <summary>
-    /// Represents a dispensed denomination and its count.
-    /// Example: 500 x 2 notes.
-    /// 
-    /// This is a value object:
-    /// - Immutable
-    /// - No identity
-    /// - Used in output/result modeling
-    /// </summary>
+     
+    // Represents a dispensed denomination and its count.
+    // Example: 500 x 2 notes.
+    // 
+    // This is a value object:
+    // - Immutable
+    // - No identity
+    // - Used in output/result modeling
+     
     public sealed class DispensedNote
     {
-        /// <summary>
-        /// Denomination of the note.
-        /// </summary>
+         
+        // Denomination of the note.
+         
         public Denomination Denomination { get; }
 
-        /// <summary>
-        /// Number of notes dispensed for this denomination.
-        /// </summary>
+         
+        // Number of notes dispensed for this denomination.
+         
         public int Count { get; }
 
         public DispensedNote(Denomination denomination, int count)

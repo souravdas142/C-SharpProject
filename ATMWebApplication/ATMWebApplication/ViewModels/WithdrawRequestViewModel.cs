@@ -2,9 +2,9 @@
 
 namespace ATMWebApplication.ViewModels
 {
-    /// <summary>
-    /// Represents withdrawal request input from UI.
-    /// </summary>
+     
+    // Represents withdrawal request input from UI.
+     
     public class WithdrawRequestViewModel
     {
         [Required]

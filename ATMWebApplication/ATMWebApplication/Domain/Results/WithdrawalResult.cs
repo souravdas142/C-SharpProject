@@ -5,11 +5,11 @@ using ATMWebApplication.Domain.ValueObjects;
 
 namespace ATMWebApplication.Domain.Results
 {
-    /// <summary>
-    /// Represents the final result of a withdrawal operation.
-    /// 
-    /// This is returned by the Service layer and consumed by the Controller.
-    /// </summary>
+   
+    // Represents the final result of a withdrawal operation.
+    // 
+    // This is returned by the Service layer and consumed by the Controller.
+    
     public sealed class WithdrawalResult
     {
         public WithdrawalStatus Status { get; }
@@ -28,9 +28,9 @@ namespace ATMWebApplication.Domain.Results
             Notes = notes;
         }
 
-        /// <summary>
-        /// Creates a successful withdrawal result.
-        /// </summary>
+        
+        // Creates a successful withdrawal result.
+        
         public static WithdrawalResult Success(List<DispensedNote> notes)
         {
             if (notes == null || notes.Count == 0)
@@ -42,9 +42,9 @@ namespace ATMWebApplication.Domain.Results
                 notes);
         }
 
-        /// <summary>
-        /// Creates a failed withdrawal result.
-        /// </summary>
+        
+        // Creates a failed withdrawal result.
+        
         public static WithdrawalResult Failure(FailureCode failureCode)
         {
             return new WithdrawalResult(

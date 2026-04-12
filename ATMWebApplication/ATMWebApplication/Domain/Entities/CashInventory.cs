@@ -5,12 +5,12 @@ using ATMWebApplication.Domain.ValueObjects;
 
 namespace ATMWebApplication.Domain.Entities
 {
-    /// <summary>
-    /// Represents the cash inventory of the ATM.
-    /// 
-    /// This is a domain entity with controlled mutability.
-    /// Only StateStore should modify the inventory.
-    /// </summary>
+    
+    // Represents the cash inventory of the ATM.
+    // 
+    // This is a domain entity with controlled mutability.
+    // Only StateStore should modify the inventory.
+    
     public sealed class CashInventory
     {
         private readonly Dictionary<Denomination, int> _notes;
@@ -20,7 +20,7 @@ namespace ATMWebApplication.Domain.Entities
             if (notes == null)
                 throw new ArgumentNullException(nameof(notes));
 
-            // Defensive copy
+            
             _notes = new Dictionary<Denomination, int>();
 
             foreach (var kvp in notes)
@@ -35,28 +35,28 @@ namespace ATMWebApplication.Domain.Entities
             }
         }
 
-        /// <summary>
-        /// Returns total amount available in ATM.
-        /// </summary>
+        
+        // Returns total amount available in ATM.
+        
         public decimal GetTotalAmount()
         {
             return _notes.Sum(x => x.Key.Value * x.Value);
         }
 
-        /// <summary>
-        /// Returns a copy of current notes.
-        /// </summary>
+       
+        // Returns a copy of current notes.
+       
         public Dictionary<Denomination, int> GetSnapshot()
         {
             return new Dictionary<Denomination, int>(_notes);
         }
 
-        /// <summary>
-        /// Checks if required notes are available.
-        /// </summary>
+       
+        // Checks if required notes are available.
+        
         public bool HasSufficientNotes(List<DispensedNote> requiredNotes)
         {
-            foreach (var note in requiredNotes)
+            foreach (DispensedNote note in requiredNotes)
             {
                 if (!_notes.TryGetValue(note.Denomination, out int available))
                     return false;
@@ -68,16 +68,16 @@ namespace ATMWebApplication.Domain.Entities
             return true;
         }
 
-        /// <summary>
-        /// Deducts notes from inventory.
-        /// Only StateStore should call this.
-        /// </summary>
+       
+        // Deducts notes from inventory.
+        // Only StateStore should call this.
+     
         public void Deduct(List<DispensedNote> notesToDeduct)
         {
             if (notesToDeduct == null)
                 throw new ArgumentNullException(nameof(notesToDeduct));
 
-            foreach (var note in notesToDeduct)
+            foreach (DispensedNote note in notesToDeduct)
             {
                 if (!_notes.ContainsKey(note.Denomination))
                     throw new InvalidOperationException("Denomination not found.");

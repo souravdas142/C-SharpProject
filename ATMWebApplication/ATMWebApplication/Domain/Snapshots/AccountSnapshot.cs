@@ -3,11 +3,11 @@ using ATMWebApplication.Domain.Entities;
 
 namespace ATMWebApplication.Domain.Snapshots
 {
-    /// <summary>
-    /// Represents a read-only snapshot of an account.
-    /// 
-    /// Used to ensure consistent reads during processing.
-    /// </summary>
+     
+    // Represents a read-only snapshot of an account.
+    // 
+    // Used to ensure consistent reads during processing.
+     
     public sealed class AccountSnapshot
     {
         public string AccountId { get; }

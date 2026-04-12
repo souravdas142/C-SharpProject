@@ -5,11 +5,11 @@ using ATMWebApplication.Domain.ValueObjects;
 
 namespace ATMWebApplication.Domain.Snapshots
 {
-    /// <summary>
-    /// Represents a read-only snapshot of ATM inventory.
-    /// 
-    /// Used by Strategy layer to perform safe calculations.
-    /// </summary>
+     
+    // Represents a read-only snapshot of ATM inventory.
+    // 
+    // Used by Strategy layer to perform safe calculations.
+     
     public sealed class InventorySnapshot
     {
         private readonly IReadOnlyDictionary<Denomination, int> _notes;
@@ -23,9 +23,9 @@ namespace ATMWebApplication.Domain.Snapshots
             _notes = new Dictionary<Denomination, int>(notes);
         }
 
-        /// <summary>
-        /// Returns all denominations sorted in descending order.
-        /// </summary>
+         
+        // Returns all denominations sorted in descending order.
+         
         public List<Denomination> GetDenominationsDescending()
         {
             return _notes.Keys
@@ -33,9 +33,9 @@ namespace ATMWebApplication.Domain.Snapshots
                 .ToList();
         }
 
-        /// <summary>
-        /// Returns available count for a denomination.
-        /// </summary>
+         
+        // Returns available count for a denomination.
+         
         public int GetCount(Denomination denomination)
         {
             if (denomination == null)
@@ -46,17 +46,17 @@ namespace ATMWebApplication.Domain.Snapshots
                 : 0;
         }
 
-        /// <summary>
-        /// Returns total amount available in snapshot.
-        /// </summary>
+         
+        // Returns total amount available in snapshot.
+         
         public decimal GetTotalAmount()
         {
             return _notes.Sum(x => x.Key.Value * x.Value);
         }
 
-        /// <summary>
-        /// Returns all notes as read-only dictionary.
-        /// </summary>
+         
+        // Returns all notes as read-only dictionary.
+         
         public IReadOnlyDictionary<Denomination, int> GetAll()
         {
             return _notes;
